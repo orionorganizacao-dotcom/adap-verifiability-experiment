@@ -1,0 +1,9 @@
+{
+  "pre": {
+    "input_hash": "TEMP"
+  },
+  "result": {
+    "decision": "approve"
+  },
+  "trace_hash": "TEMP"
+}
