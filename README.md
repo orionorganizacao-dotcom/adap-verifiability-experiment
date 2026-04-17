@@ -11,7 +11,9 @@ This is a minimal experiment to demonstrate independent reconstruction of an AI 
 ## How to verify
 ## Expected result
 
-If everything is correct, the script should output:## Tamper test
+## Expected result
+
+If everything is correct, the script should output:
 
 Modify any value in `data/input.json` and run again.
 
