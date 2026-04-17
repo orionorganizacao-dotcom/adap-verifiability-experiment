@@ -1,26 +1,20 @@
-# A-DAP Verifiability Experiment
+# Experimento de Verificabilidade A-DAP
 
-This is a minimal experiment to demonstrate **independent verification of decision integrity** without access to the original system.
-
----
-
-## Files
-
-- `data/input.json` → original input  
-- `logs/verifiable_trace.json` → decision + hashes  
-- `scripts/verify_reconstruction.py` → independent verifier  
+Este é um experimento mínimo para demonstrar a verificação independente da integridade de uma decisão sem acesso ao sistema original.
 
 ---
 
-## How to verify
-## Resultado esperado
+## Arquivos
 
-Se tudo estiver correto, o script deve retornar:
-Run:
-## Teste de adulteração
+- `data/input.json` → entrada original  
+- `logs/verifiable_trace.json` → decisão + hashes  
+- `scripts/verify_reconstruction.py` → verificador independente  
 
-Modifique qualquer valor em `data/input.json` e execute novamente.
+---
 
-A verificação irá falhar.
+## Como verificar
+
+Execute:
+
 ```bash
 python scripts/verify_reconstruction.py
