@@ -16,7 +16,7 @@ Uma decisão só é auditável se puder ser verificada fora do sistema que a pro
 
 Este experimento testa exatamente isso:
 
-> Um terceiro, sem acesso ao código original, consegue validar a integridade da decisão?## Arquivos
+> Um terceiro, sem acesso ao código original, consegue validar a integridade da decisão?
 
 - `data/input.json` → entrada original utilizada
 - `logs/verifiable_trace.json` → decisão registrada + hashes de integridade
