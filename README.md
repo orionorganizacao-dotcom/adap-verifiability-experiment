@@ -18,9 +18,9 @@ Este experimento testa exatamente isso:
 
 > Um terceiro, sem acesso ao código original, consegue validar a integridade da decisão?
 
-- `data/input.json` → entrada original utilizada
-- `logs/verifiable_trace.json` → decisão registrada + hashes de integridade
-- `scripts/verify_reconstruction.py` → verificador independente (não executa a lógica original)
+- `data/input.json` 
+- `logs/verifiable_trace.json`
+- `scripts/verify_reconstruction.py`
 
 Execute:
 
