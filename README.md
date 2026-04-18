@@ -20,7 +20,7 @@ Este experimento testa exatamente isso:
 
 - `data/input.json` → entrada original utilizada
 - `logs/verifiable_trace.json` → decisão registrada + hashes de integridade
-- `scripts/verify_reconstruction.py` → verificador independente (não executa a lógica original)## Como verificar
+- `scripts/verify_reconstruction.py` → verificador independente (não executa a lógica original)
 
 Execute:
 
