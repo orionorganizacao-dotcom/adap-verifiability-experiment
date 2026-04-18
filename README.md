@@ -10,7 +10,21 @@ Em outras palavras:
 - A decisão é tratada como um artefato já fechado
 - A verificação valida consistência, não recalcula lógica---
 
-## Princípio
+## Princípio---
+
+## O que é verificado
+
+O verificador não reexecuta a lógica de decisão.
+
+Ele valida:
+
+- Se o input utilizado corresponde ao hash registrado
+- Se a decisão registrada corresponde ao hash do resultado
+- Se o trace não foi alterado após a geração
+
+Ou seja:
+
+A verificação garante que o artefato da decisão é íntegro e consistente com os dados originais, sem depender do sistema que a produziu.
 
 Uma decisão só é auditável se puder ser verificada fora do sistema que a produziu.
 
@@ -25,4 +39,12 @@ Este experimento testa exatamente isso:
 Execute:
 
 ```bash
-python scripts/verify_reconstruction.py
+python scripts/verify_reconstruction.py---
+
+## Limitação
+
+Este experimento valida integridade e consistência.
+
+Ele não prova que a decisão é correta — apenas que ela é verificável.
+
+Essa distinção é intencional.
